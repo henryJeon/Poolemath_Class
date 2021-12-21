@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>풀이수학 클래스</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/common.css" />
+    </head>
+
+    <body style="overflow: auto;">
+        <div style="padding: 10px;"><strong>Poolemath Class Work Guide</strong> v.1.1 (2021.10.20)</div>
+        <div style="padding: 10px 0px 0px 10px; font-size: 13px;"><strong>Folder structure</strong>
+            <ul>
+                <li>css : CSS style sheet</li>
+                <li>img : images</li>
+                <li>page : Html publishing pages</li>
+            </ul>
+        </div>
+        <div style="padding: 0px 0px 10px 10px; font-size: 13px;"><strong>File naming</strong> : [class/modal]_[action]_[content]_[result].html</div>
+        <div style="padding: 0px 0px 10px 10px; font-size: 13px;"><strong>Prototype</strong> :
+            <a href="https://xd.adobe.com/view/e4d3e6c5-c6d4-4211-b479-b8da7ec5102a-b180/" target="_blank">https://xd.adobe.com/view/e4d3e6c5-c6d4-4211-b479-b8da7ec5102a-b180/</a></div>
+        <table class="table-live" style="font-size: 13px;">
+            <thead style="background-color: #ccc;">
+                <tr>
+                    <th>No</th>
+                    <th>Category</th>
+                    <th>Type</th>
+                    <th>Depth 01</th>
+                    <th>Depth 02</th>
+                    <th>file</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>01</td>
+                <td rowspan="12">수강클래스</td>
+                <td>page</td>
+                <td colspan="2">메인UI</td>
+                <td><a href="page/class_attend.html" target="_blank">class_attend.html</a></td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>page</td>
+                <td colspan="2">메인UI[empty]</td>
+                <td><a href="page/class_attend_empty.html" target="_blank">class_attend_empty.html</a></td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>modal</td>
+                <td rowspan="4">수강신청</td>
+                <td>신청하기</td>
+                <td><a href="page/modal_register_class.html" target="_blank">modal_register_class.html</a></td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>modal</td>
+                <td>검색결과</td>
+                <td><a href="page/modal_register_class_result.html" target="_blank">modal_register_class_result.html</a></td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>modal</td>
+                <td>검색불가</td>
+                <td><a href="page/modal_register_class_fail.html" target="_blank">modal_register_class_fail.html</a></td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>modal</td>
+                <td>신청완료</td>
+                <td><a href="page/modal_register_class_ok.html" target="_blank">modal_register_class_ok.html</a></td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>modal</td>
+                <td rowspan="2">초대설정</td>
+                <td>초대설정</td>
+                <td><a href="page/modal_set_invite.html" target="_blank">modal_set_invite.html</a></td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>modal</td>
+                <td>적용완료</td>
+                <td><a href="page/modal_set_invite_ok.html" target="_blank">modal_set_invite_ok.html</a></td>
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>modal</td>
+                <td rowspan="4">버튼액션</td>
+                <td>탈퇴확인</td>
+                <td><a href="page/modal_unregister.html" target="_blank">modal_unregister.html</a></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>modal</td>
+                <td>탈퇴완료</td>
+                <td><a href="page/modal_unregister_ok.html" target="_blank">modal_unregister_ok.html</a></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>modal</td>
+                <td>신청취소</td>
+                <td><a href="page/modal_apply_cancel.html" target="_blank">modal_apply_cancel.html</a></td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>modal</td>
+                <td>신청취소완료</td>
+                <td><a href="page/modal_apply_cancel_ok.html" target="_blank">modal_apply_cancel_ok.html</a></td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td rowspan="17">강의클래스</td>
+                <td>page</td>
+                <td colspan="2">메인UI</td>
+                <td><a href="page/class_lecture.html" target="_blank">class_lecture.html</a></td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>page</td>
+                <td colspan="2">메인UI[empty]</td>
+                <td><a href="page/class_lecture_empty.html" target="_blank">class_lecture_empty.html</a></td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>modal</td>
+                <td rowspan="6">강의클래스</td>
+                <td>클래스 생성</td>
+                <td><a href="page/modal_build_class.html" target="_blank">modal_build_class.html</a></td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>modal</td>
+                <td>클래스 생성완료</td>
+                <td><a href="page/modal_build_class_ok.html" target="_blank">modal_build_class_ok.html</a></td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>modal</td>
+                <td>클래스 수정</td>
+                <td><a href="page/modal_modify_class.html" target="_blank">modal_modify_class.html</a></td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>modal</td>
+                <td>클래스 수정완료</td>
+                <td><a href="page/modal_modify_class_ok.html" target="_blank">modal_modify_class_ok.html</a></td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>modal</td>
+                <td>클래스 삭제</td>
+                <td><a href="page/modal_del_class.html" target="_blank">modal_del_class.html</a></td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>modal</td>
+                <td>클래스 삭제완료</td>
+                <td><a href="page/modal_del_class_ok.html" target="_blank">modal_del_class_ok.html</a></td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>modal</td>
+                <td rowspan="6">강의그룹</td>
+                <td>그룹 생성</td>
+                <td><a href="page/modal_build_group.html" target="_blank">modal_build_group.html</a></td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>modal</td>
+                <td>그룹 생성완료</td>
+                <td><a href="page/modal_build_group_ok.html" target="_blank">modal_build_group_ok.html</a></td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>modal</td>
+                <td>그룹 수정</td>
+                <td><a href="page/modal_modify_group.html" target="_blank">modal_modify_grouup.html</a></td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>modal</td>
+                <td>그룹 수정완료</td>
+                <td><a href="page/modal_modify_group_ok.html" target="_blank">modal_modify_group_ok.html</a></td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>modal</td>
+                <td>그룹 삭제</td>
+                <td><a href="page/modal_del_group.html" target="_blank">modal_del_grouup.html</a></td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>modal</td>
+                <td>그룹 삭제완료</td>
+                <td><a href="page/modal_del_group_ok.html" target="_blank">modal_del_group_ok.html</a></td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>modal</td>
+                <td rowspan="3">멤버초대</td>
+                <td>이메일 멤버초대</td>
+                <td><a href="page/modal_invite_member_email.html" target="_blank">modal_invite_member_email.html</a></td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>modal</td>
+                <td>클래스/그룹 멤버초대</td>
+                <td><a href="page/modal_invite_member_class.html" target="_blank">modal_invite_member_class.html</a></td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>modal</td>
+                <td>초대완료</td>
+                <td><a href="page/modal_invite_member_ok.html" target="_blank">modal_invite_member_ok.html</a></td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td rowspan="12">라이브클래스</td>
+                <td>page</td>
+                <td colspan="2">메인UI</td>
+                <td><a href="page/class_live.html" target="_blank">class_live.html</a></td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>page</td>
+                <td colspan="2">메인UI[empty]</td>
+                <td><a href="page/class_live_empty.html" target="_blank">class_live_empty.html</a></td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>modal</td>
+                <td rowspan="2">학습방생성</td>
+                <td>생성하기</td>
+                <td><a href="page/modal_build_live.html" target="_blank">modal_build_live.html</a></td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>modal</td>
+                <td>생성완료</td>
+                <td><a href="page/modal_build_live_ok.html" target="_blank">modal_build_live_ok.html</a></td>
+            </tr>
+        </table>
+        <br>
+
+    </body>
+
+</html>
